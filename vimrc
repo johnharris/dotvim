@@ -82,4 +82,4 @@ nmap bash :ConqueTerm bash
 let NERDTreeShowHidden=1
 let NERDTreeShowBookmarks=1
 
-
+set encoding=utf-8
