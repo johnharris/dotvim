@@ -1,4 +1,4 @@
-"  pathogen - must come first ----------------------------------
+"   pathogen - must come first ----------------------------------
 execute pathogen#infect()
 "  important ---------------------------------------------------
 set nocompatible
@@ -32,7 +32,7 @@ set laststatus=2
 set linespace=2
 set ch=2
 "   statusline -------------------------------------------------
-set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
+"set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
 "set statusline=%#ErrorMsg#%{GitBranchInfoTokens()[0]}%#StatusLine#
 
 "  selecting text ----------------------------------------------
@@ -67,7 +67,7 @@ set gdefault
 if has("gui")
     set go-=T
     set guifont=Monaco:h13
-    set lines=65 columns=110
+    set lines=65 columns=234
 endif
 "   ------------------------------------------------------------
 colorscheme kellys
