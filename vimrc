@@ -24,6 +24,11 @@ set hidden
 "  messages and info -------------------------------------------
 set showcmd
 set ruler
+set vb
+set laststatus=2
+set linespace=2
+set ch=2
+set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
 "  selecting text ----------------------------------------------
 "  editing text ------------------------------------------------
 set nrformats-=octal
@@ -54,11 +59,12 @@ set gdefault
 "   gui settings -----------------------------------------------
 if has("gui")
     set go-=T
-    set guifont=inconsolata:h16
+    set guifont=Monaco:h13
     set lines=65 columns=110
 endif
 "   ------------------------------------------------------------
-colorscheme solarized
+colorscheme kellys
+
 filetype plugin indent on
 syntax on
 let mapleader="/"
@@ -66,3 +72,14 @@ let mapleader="/"
 "
 "
 let g:EasyMotion_leader_key = '<Leader>'
+
+let g:ConqueTerm_EscKey = '<Esc>'
+let g:ConqueTerm_PyVersion = 2
+nmap my :ConqueTerm mysql -u root -psisyphus
+nmap bash :ConqueTerm bash
+
+"show hidden files in NERDTree
+let NERDTreeShowHidden=1
+let NERDTreeShowBookmarks=1
+
+
