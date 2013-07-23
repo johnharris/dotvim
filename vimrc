@@ -28,7 +28,9 @@ set vb
 set laststatus=2
 set linespace=2
 set ch=2
-set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
+"set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
+set statusline=%#ErrorMsg#%{GitBranchInfoTokens()[0]}%#StatusLine#
+
 "  selecting text ----------------------------------------------
 "  editing text ------------------------------------------------
 set nrformats-=octal
