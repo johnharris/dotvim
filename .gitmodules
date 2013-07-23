@@ -31,3 +31,6 @@
 [submodule "bundle/git-branch-info"]
 	path = bundle/git-branch-info
 	url = git@github.com:taq/vim-git-branch-info.git
+[submodule "bundle/neatstatus"]
+	path = bundle/neatstatus
+	url = git@github.com:maciakl/vim-neatstatus.git
