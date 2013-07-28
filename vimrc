@@ -67,7 +67,7 @@ set gdefault
 if has("gui")
     set go-=T
     set guifont=Monaco:h13
-    set lines=65 columns=234
+    set lines=65 columns=250
 endif
 "   ------------------------------------------------------------
 colorscheme kellys
@@ -105,6 +105,7 @@ let NERDTreeShowBookmarks=1
 let g:user_zen_expandabbr_key = '<c-e>'
 let g:use_zen_complete_tag = 1
 
+let g:LustyJugglerSuppressRubyWarning = 1
 "=========================================
 "    FUNCTION KEY MAPPINGS
 "=========================================
