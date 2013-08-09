@@ -40,6 +40,7 @@ set ch=2
 set nrformats-=octal
 set backspace=indent,eol,start
 set noswapfile
+set undodir=~/.tmp
 "  tabs and indenting ------------------------------------------
 set autoindent
 set smartindent
