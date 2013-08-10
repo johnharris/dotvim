@@ -1,4 +1,5 @@
 "   pathogen - must come first ----------------------------------
+
 execute pathogen#infect()
 "  important ---------------------------------------------------
 set nocompatible
